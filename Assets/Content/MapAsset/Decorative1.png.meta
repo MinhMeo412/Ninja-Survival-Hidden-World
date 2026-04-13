@@ -1,0 +1,1976 @@
+fileFormatVersion: 2
+guid: dd0d86dae787ad946b574a4557093fe5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7478293416473049751
+    second: AssestMap - Copy_0
+  - first:
+      213: 1231095726578505888
+    second: AssestMap - Copy_1
+  - first:
+      213: -6232928097937923914
+    second: AssestMap - Copy_2
+  - first:
+      213: 4494549652013288632
+    second: AssestMap - Copy_3
+  - first:
+      213: -4145168734451745927
+    second: AssestMap - Copy_4
+  - first:
+      213: 2852183947981406596
+    second: AssestMap - Copy_5
+  - first:
+      213: -5027613637471942442
+    second: AssestMap - Copy_6
+  - first:
+      213: 2686360672879175212
+    second: AssestMap - Copy_7
+  - first:
+      213: -16785203502237175
+    second: AssestMap - Copy_8
+  - first:
+      213: 851240734847174610
+    second: AssestMap - Copy_9
+  - first:
+      213: -6151382437159713732
+    second: AssestMap - Copy_10
+  - first:
+      213: 8784449388817077114
+    second: AssestMap - Copy_11
+  - first:
+      213: 8993000620461442945
+    second: AssestMap - Copy_12
+  - first:
+      213: -6103242786898732416
+    second: AssestMap - Copy_13
+  - first:
+      213: 6669195808648532874
+    second: AssestMap - Copy_14
+  - first:
+      213: 8801243592073684517
+    second: AssestMap - Copy_15
+  - first:
+      213: 8653173439138288844
+    second: AssestMap - Copy_16
+  - first:
+      213: 2639996232423966413
+    second: AssestMap - Copy_17
+  - first:
+      213: 1869982139907264599
+    second: AssestMap - Copy_18
+  - first:
+      213: -1351653547843978845
+    second: AssestMap - Copy_19
+  - first:
+      213: 6983606692736451337
+    second: AssestMap - Copy_20
+  - first:
+      213: 4283971135998900527
+    second: AssestMap - Copy_21
+  - first:
+      213: -5892999782780391419
+    second: AssestMap - Copy_22
+  - first:
+      213: -5688462868714938847
+    second: AssestMap - Copy_23
+  - first:
+      213: -7036767924252776492
+    second: AssestMap - Copy_24
+  - first:
+      213: -3151470213720938342
+    second: AssestMap - Copy_25
+  - first:
+      213: -4089040498089500984
+    second: AssestMap - Copy_26
+  - first:
+      213: -3024766424318686659
+    second: AssestMap - Copy_27
+  - first:
+      213: -5851933773651908516
+    second: AssestMap - Copy_28
+  - first:
+      213: -4347317744600329651
+    second: AssestMap - Copy_29
+  - first:
+      213: -1392416809874054954
+    second: AssestMap - Copy_30
+  - first:
+      213: -6659020625275745597
+    second: AssestMap - Copy_31
+  - first:
+      213: -609139015073474280
+    second: AssestMap - Copy_32
+  - first:
+      213: 6728662176298912593
+    second: AssestMap - Copy_33
+  - first:
+      213: -6345809954676258455
+    second: AssestMap - Copy_34
+  - first:
+      213: 2026494505650001082
+    second: AssestMap - Copy_35
+  - first:
+      213: -6104798038928470916
+    second: AssestMap - Copy_36
+  - first:
+      213: -2745498549050666965
+    second: AssestMap - Copy_37
+  - first:
+      213: -2208380612363950995
+    second: AssestMap - Copy_38
+  - first:
+      213: 7544672459619759539
+    second: AssestMap - Copy_39
+  - first:
+      213: -3731755393708827741
+    second: AssestMap - Copy_40
+  - first:
+      213: 4719320533628365865
+    second: AssestMap - Copy_41
+  - first:
+      213: -5889844023797478294
+    second: AssestMap - Copy_42
+  - first:
+      213: 2121578030349450797
+    second: AssestMap - Copy_43
+  - first:
+      213: 9087259636780791282
+    second: AssestMap - Copy_44
+  - first:
+      213: -2720008074524997825
+    second: AssestMap - Copy_45
+  - first:
+      213: -4946186264535175408
+    second: AssestMap - Copy_46
+  - first:
+      213: -9216189567134286544
+    second: AssestMap - Copy_47
+  - first:
+      213: -5419796010571637257
+    second: AssestMap - Copy_48
+  - first:
+      213: 3403267555849356349
+    second: AssestMap - Copy_49
+  - first:
+      213: -7055292787443155605
+    second: AssestMap - Copy_50
+  - first:
+      213: 6035435041751936653
+    second: AssestMap - Copy_51
+  - first:
+      213: 6110848806532588028
+    second: AssestMap - Copy_52
+  - first:
+      213: 6127386858824540999
+    second: AssestMap - Copy_53
+  - first:
+      213: -8291180183379084918
+    second: AssestMap - Copy_54
+  - first:
+      213: 3799471909709815301
+    second: AssestMap - Copy_55
+  - first:
+      213: -6418017154836708031
+    second: AssestMap - Copy_56
+  - first:
+      213: 9085531539122787859
+    second: AssestMap - Copy_57
+  - first:
+      213: 3462273437604114864
+    second: AssestMap - Copy_58
+  - first:
+      213: 5829308367825152481
+    second: AssestMap - Copy_59
+  - first:
+      213: 3570959506449482493
+    second: AssestMap - Copy_60
+  - first:
+      213: -1234342107465441665
+    second: AssestMap - Copy_61
+  - first:
+      213: -7076972344025562793
+    second: AssestMap - Copy_62
+  - first:
+      213: 7937757067628847522
+    second: AssestMap - Copy_63
+  - first:
+      213: 3188188200264571956
+    second: AssestMap - Copy_64
+  - first:
+      213: -8375474161012005857
+    second: AssestMap - Copy_65
+  - first:
+      213: -4120078860074804449
+    second: AssestMap - Copy_66
+  - first:
+      213: -2660987421362371498
+    second: AssestMap - Copy_67
+  - first:
+      213: -4122582835130103123
+    second: AssestMap - Copy_68
+  - first:
+      213: 212358366916492282
+    second: AssestMap - Copy_69
+  - first:
+      213: 7843456574656235237
+    second: AssestMap - Copy_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AssestMap - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 895
+        width: 321
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9654bf862c3c73890800000000000000
+      internalID: -7478293416473049751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 833
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8963b6a0bb51110800000000000000
+      internalID: 1231095726578505888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 847
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0ebdb1be03089a0800000000000000
+      internalID: -6232928097937923914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 816
+        width: 128
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc8b996819df5e30800000000000000
+      internalID: 4494549652013288632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 515
+        width: 418
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bb2f08ff66976c0800000000000000
+      internalID: -4145168734451745927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 785
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481c08d603ef49720800000000000000
+      internalID: 2852183947981406596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 799
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8439eb8045a3ab0800000000000000
+      internalID: -5027613637471942442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 800
+        width: 128
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26ea8d8cced74520800000000000000
+      internalID: 2686360672879175212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a34c342fd54cff0800000000000000
+      internalID: -16785203502237175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 751
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d788e230f630db00800000000000000
+      internalID: 851240734847174610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 768
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34c48bc346e1aaa0800000000000000
+      internalID: -6151382437159713732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 689
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73d6d75d22a8e970800000000000000
+      internalID: 8784449388817077114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 703
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187c877da6e8dcc70800000000000000
+      internalID: 8993000620461442945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 704
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a9fec850dec4ba0800000000000000
+      internalID: -6103242786898732416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 720
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a831508c04ebd8c50800000000000000
+      internalID: 6669195808648532874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 719
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5262c3f7a6c442a70800000000000000
+      internalID: 8801243592073684517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 303
+        width: 674
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4deab756f361870800000000000000
+      internalID: 8653173439138288844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 641
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6000a069623a420800000000000000
+      internalID: 2639996232423966413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 655
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7505f7149d283f910800000000000000
+      internalID: 1869982139907264599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 657
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9fc557246fd3de0800000000000000
+      internalID: -1351653547843978845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 641
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903c89b4941cae060800000000000000
+      internalID: 6983606692736451337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 657
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29bd3dfc09b37b30800000000000000
+      internalID: 4283971135998900527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 657
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500bbe58bebd73ea0800000000000000
+      internalID: -5892999782780391419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 641
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e1f30e8258e01b0800000000000000
+      internalID: -5688462868714938847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 642
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7ec04fad0685e90800000000000000
+      internalID: -7036767924252776492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 575
+        width: 82
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9860fea98ab344d0800000000000000
+      internalID: -3151470213720938342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 511
+        width: 82
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce5037e45fc047c0800000000000000
+      internalID: -4089040498089500984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 575
+        width: 129
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ac4f586fed506d0800000000000000
+      internalID: -3024766424318686659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 511
+        width: 129
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58ed5cdc31c9cea0800000000000000
+      internalID: -5851933773651908516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 97
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42585b5b893ba3c0800000000000000
+      internalID: -4347317744600329651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 385
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0ac2ce9442dace0800000000000000
+      internalID: -1392416809874054954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 463
+        width: 225
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca8076b5086693a0800000000000000
+      internalID: -6659020625275745597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 193
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819d6bb0b47eb87f0800000000000000
+      internalID: -609139015073474280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b47ef6992016d50800000000000000
+      internalID: 6728662176298912593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969426fb7772fe7a0800000000000000
+      internalID: -6345809954676258455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 303
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab49c8c140e8f1c10800000000000000
+      internalID: 2026494505650001082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 320
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cca283786674ba0800000000000000
+      internalID: -6104798038928470916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b201c7cad9706e9d0800000000000000
+      internalID: -2745498549050666965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 337
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64ef2798814a51e0800000000000000
+      internalID: -2208380612363950995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 321
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5fe4ee0af04b860800000000000000
+      internalID: 7544672459619759539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 336
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab5659bd34263cc0800000000000000
+      internalID: -3731755393708827741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_41
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c202475056e7140800000000000000
+      internalID: 4719320533628365865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_42
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 287
+        width: 130
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c081be012134ea0800000000000000
+      internalID: -5889844023797478294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 336
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e704e5afb517d10800000000000000
+      internalID: 2121578030349450797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_44
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f570184e7e6c1e70800000000000000
+      internalID: 9087259636780791282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f374eb34117904ad0800000000000000
+      internalID: -2720008074524997825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 303
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fe6756ccd9b5bb0800000000000000
+      internalID: -4946186264535175408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_47
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 303
+        width: 82
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dbc4c0b64891080800000000000000
+      internalID: -9216189567134286544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_48
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 320
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd5cc26e3409c4b0800000000000000
+      internalID: -5419796010571637257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_49
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34430e8fc5da3f20800000000000000
+      internalID: 3403267555849356349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d33122790961e90800000000000000
+      internalID: -7055292787443155605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 303
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ea190813c22c350800000000000000
+      internalID: 6035435041751936653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 303
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1ae75ec981ec450800000000000000
+      internalID: 6110848806532588028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 307
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74322a142e9d80550800000000000000
+      internalID: 6127386858824540999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_54
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a897ee04d8fcfec80800000000000000
+      internalID: -8291180183379084918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 193
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e1458429f6ab430800000000000000
+      internalID: 3799471909709815301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_56
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145489bd66f9ee6a0800000000000000
+      internalID: -6418017154836708031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_57
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 288
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31695013cca461e70800000000000000
+      internalID: 9085531539122787859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_58
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 288
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1f9abf8577c0030800000000000000
+      internalID: 3462273437604114864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_59
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 288
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e92e66531dd5e050800000000000000
+      internalID: 5829308367825152481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_60
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 291
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2c93950c89e8130800000000000000
+      internalID: 3570959506449482493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e1731a46cbedee0800000000000000
+      internalID: -1234342107465441665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_62
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 271
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751c715062b89cd90800000000000000
+      internalID: -7076972344025562793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_63
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 191
+        width: 82
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a12d593ff3982e60800000000000000
+      internalID: 7937757067628847522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_64
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 223
+        width: 130
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c9cd1c648be3c20800000000000000
+      internalID: 3188188200264571956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_65
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 207
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14aa6f20a654cb80800000000000000
+      internalID: -8375474161012005857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 198
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b15aa1b1a82d6c0800000000000000
+      internalID: -4120078860074804449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_67
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 193
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654c9ede906421bd0800000000000000
+      internalID: -2660987421362371498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa82faf0c4a9c6c0800000000000000
+      internalID: -4122582835130103123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_69
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 193
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbb3214fc272f200800000000000000
+      internalID: 212358366916492282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssestMap - Copy_70
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 192
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6469fb23e89dc60800000000000000
+      internalID: 7843456574656235237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AssestMap - Copy_0: -7478293416473049751
+      AssestMap - Copy_1: 1231095726578505888
+      AssestMap - Copy_10: -6151382437159713732
+      AssestMap - Copy_11: 8784449388817077114
+      AssestMap - Copy_12: 8993000620461442945
+      AssestMap - Copy_13: -6103242786898732416
+      AssestMap - Copy_14: 6669195808648532874
+      AssestMap - Copy_15: 8801243592073684517
+      AssestMap - Copy_16: 8653173439138288844
+      AssestMap - Copy_17: 2639996232423966413
+      AssestMap - Copy_18: 1869982139907264599
+      AssestMap - Copy_19: -1351653547843978845
+      AssestMap - Copy_2: -6232928097937923914
+      AssestMap - Copy_20: 6983606692736451337
+      AssestMap - Copy_21: 4283971135998900527
+      AssestMap - Copy_22: -5892999782780391419
+      AssestMap - Copy_23: -5688462868714938847
+      AssestMap - Copy_24: -7036767924252776492
+      AssestMap - Copy_25: -3151470213720938342
+      AssestMap - Copy_26: -4089040498089500984
+      AssestMap - Copy_27: -3024766424318686659
+      AssestMap - Copy_28: -5851933773651908516
+      AssestMap - Copy_29: -4347317744600329651
+      AssestMap - Copy_3: 4494549652013288632
+      AssestMap - Copy_30: -1392416809874054954
+      AssestMap - Copy_31: -6659020625275745597
+      AssestMap - Copy_32: -609139015073474280
+      AssestMap - Copy_33: 6728662176298912593
+      AssestMap - Copy_34: -6345809954676258455
+      AssestMap - Copy_35: 2026494505650001082
+      AssestMap - Copy_36: -6104798038928470916
+      AssestMap - Copy_37: -2745498549050666965
+      AssestMap - Copy_38: -2208380612363950995
+      AssestMap - Copy_39: 7544672459619759539
+      AssestMap - Copy_4: -4145168734451745927
+      AssestMap - Copy_40: -3731755393708827741
+      AssestMap - Copy_41: 4719320533628365865
+      AssestMap - Copy_42: -5889844023797478294
+      AssestMap - Copy_43: 2121578030349450797
+      AssestMap - Copy_44: 9087259636780791282
+      AssestMap - Copy_45: -2720008074524997825
+      AssestMap - Copy_46: -4946186264535175408
+      AssestMap - Copy_47: -9216189567134286544
+      AssestMap - Copy_48: -5419796010571637257
+      AssestMap - Copy_49: 3403267555849356349
+      AssestMap - Copy_5: 2852183947981406596
+      AssestMap - Copy_50: -7055292787443155605
+      AssestMap - Copy_51: 6035435041751936653
+      AssestMap - Copy_52: 6110848806532588028
+      AssestMap - Copy_53: 6127386858824540999
+      AssestMap - Copy_54: -8291180183379084918
+      AssestMap - Copy_55: 3799471909709815301
+      AssestMap - Copy_56: -6418017154836708031
+      AssestMap - Copy_57: 9085531539122787859
+      AssestMap - Copy_58: 3462273437604114864
+      AssestMap - Copy_59: 5829308367825152481
+      AssestMap - Copy_6: -5027613637471942442
+      AssestMap - Copy_60: 3570959506449482493
+      AssestMap - Copy_61: -1234342107465441665
+      AssestMap - Copy_62: -7076972344025562793
+      AssestMap - Copy_63: 7937757067628847522
+      AssestMap - Copy_64: 3188188200264571956
+      AssestMap - Copy_65: -8375474161012005857
+      AssestMap - Copy_66: -4120078860074804449
+      AssestMap - Copy_67: -2660987421362371498
+      AssestMap - Copy_68: -4122582835130103123
+      AssestMap - Copy_69: 212358366916492282
+      AssestMap - Copy_7: 2686360672879175212
+      AssestMap - Copy_70: 7843456574656235237
+      AssestMap - Copy_8: -16785203502237175
+      AssestMap - Copy_9: 851240734847174610
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
