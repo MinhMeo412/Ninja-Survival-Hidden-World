@@ -2,8 +2,9 @@ using UnityEngine;
 
 public enum EnemyType 
 {
-    Chase,
-    Distance,
-    Suicide,
-    Cross
+    Normal,
+    HighHP,
+    ShootDistance,
+    RunCross,
+    Suicide
 }

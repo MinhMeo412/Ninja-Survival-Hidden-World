@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "CharacterProfile", menuName = "Game/Character Profile")]
-public class CharacterProfile : ScriptableObject
+public class CharacterProfile : Profile
 {
     [Header("Info")]
     public string characterName;

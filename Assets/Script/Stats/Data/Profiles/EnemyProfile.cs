@@ -1,10 +1,19 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "EnemyProfile", menuName = "Game/Enemy Profile")]
-public class EnemyProfile : ScriptableObject
+public class EnemyProfile : Profile
 {
+    [Header("Info")]
     public string enemyName;
-    public BaseStats stats;
+    public EnemyType enemyType;
 
-    //public EnemyType type; // melee, ranged, boss...
+    [Header("Visual")]
+    public Sprite worldSprite;
+    public RuntimeAnimatorController animatorController;
+
+    [Header("Prefab Optional")]
+    public GameObject prefab;
+
+    [Header("Stats")]
+    public BaseStats stats;
 }

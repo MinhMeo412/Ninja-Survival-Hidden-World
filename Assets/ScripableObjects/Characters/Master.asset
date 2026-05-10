@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterProfile
   characterName: Master
   icon: {fileID: 21300000, guid: 3904945ee52f21542a71209a8fd77344, type: 3}
-  worldSprite: {fileID: 0}
+  worldSprite: {fileID: 4843460787145592052, guid: 9b3caf3c552803d42a5f6f175719691e, type: 3}
   animatorController: {fileID: 0}
   prefab: {fileID: 5668169814541850283, guid: 12ca08f0d858a0740a8e32584675474d, type: 3}
   stats:

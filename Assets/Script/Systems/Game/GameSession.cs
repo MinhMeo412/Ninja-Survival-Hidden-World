@@ -7,7 +7,8 @@ public class GameSession : MonoBehaviour
 
     [Header("RunSelectionData")]
     public CharacterProfile selectedCharacter;
-    //public MapProfile selectedMap;
+    public int selectedMap;
+    public EnemyList enemyList;
     //public GameModeType selectedMode;
 
     [Header("RunProgressData")]
