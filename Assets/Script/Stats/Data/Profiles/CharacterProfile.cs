@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "CharacterProfile", menuName = "Game/Character Profile")]
-public class CharacterProfile : Profile
+public class CharacterProfile : Profile, IPrefabProvider
 {
     [Header("Info")]
     public string characterName;
@@ -12,7 +12,9 @@ public class CharacterProfile : Profile
     public RuntimeAnimatorController animatorController;
 
     [Header("Prefab Optional")]
-    public GameObject prefab;
+    [SerializeField]
+    private GameObject prefabPlayer;
+    public GameObject GetPrefab => prefabPlayer;
 
     [Header("Stats")]
     public BaseStats stats;

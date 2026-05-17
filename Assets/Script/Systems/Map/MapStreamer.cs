@@ -13,6 +13,11 @@ public class MapStreamer : MonoBehaviour
     {
         mapGen = GetComponent<MapGenerator>();
 
+        if(player == null)
+        {
+            Debug.Log("Dừng ở đây");
+            return;
+        }  
         UpdateCenterChunk();
         RepositionChunks();
     }

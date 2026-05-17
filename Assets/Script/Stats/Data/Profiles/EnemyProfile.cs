@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "EnemyProfile", menuName = "Game/Enemy Profile")]
-public class EnemyProfile : Profile
+public class EnemyProfile : Profile, IPrefabProvider
 {
     [Header("Info")]
     public string enemyName;
@@ -11,8 +11,10 @@ public class EnemyProfile : Profile
     public Sprite worldSprite;
     public RuntimeAnimatorController animatorController;
 
-    [Header("Prefab Optional")]
-    public GameObject prefab;
+    [Header("Prefab")]
+    [SerializeField]
+    private GameObject prefabEnemy;
+    public GameObject GetPrefab => prefabEnemy;
 
     [Header("Stats")]
     public BaseStats stats;

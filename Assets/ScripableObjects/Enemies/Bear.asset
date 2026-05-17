@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a31dd145bd6df4a8fff88897588ae1, type: 3}
   m_Name: Bear
   m_EditorClassIdentifier: Assembly-CSharp::EnemyProfile
-  enemyName: 
-  worldSprite: {fileID: 0}
-  animatorController: {fileID: 0}
-  prefab: {fileID: 3748251016042287724, guid: 248aaba620c6c3247bd6a81aa87acedd, type: 3}
+  enemyName: Bear
+  enemyType: 1
+  worldSprite: {fileID: 21300000, guid: 42876e781d79b044281fab7e6ae94cac, type: 3}
+  animatorController: {fileID: 9100000, guid: 5e14d20a6109864428c1ff02a55275d6, type: 2}
+  prefabEnemy: {fileID: 3748251016042287724, guid: 248aaba620c6c3247bd6a81aa87acedd, type: 3}
   stats:
-    maxHP: 0
-    moveSpeed: 0
-    damage: 0
+    maxHP: 10
+    moveSpeed: 5
+    damage: 5

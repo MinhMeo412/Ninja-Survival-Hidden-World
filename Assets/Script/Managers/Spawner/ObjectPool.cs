@@ -1,42 +1,36 @@
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
-public class ObjectPool
+public class ObjectPool<T> where T : Profile, IPrefabProvider
 {
     private class PoolItem
     {
         public GameObject gameObject;
-        public IPoolable poolable;
+        public IPoolable<T> poolable;
     }
 
     private readonly Queue<PoolItem> inactiveObjects = new Queue<PoolItem>();
 
     private readonly Dictionary<GameObject, PoolItem> allItems = new Dictionary<GameObject, PoolItem>();
 
-    private readonly GameObject prefab;
+    private readonly T profile;
 
     private readonly Transform parent;
 
-    private int currentSize;
-
-    private int maxSize;
-
-    public ObjectPool(Profile profile, 
+    public ObjectPool(T profile, 
                         int initialSize,
                         int maxSize,
                         Transform root)
     {
-        EnemyProfile enemyProfile = profile as EnemyProfile;
-        if (enemyProfile == null)
+        this.profile = profile;
+        if (profile == null)
         {
-            Debug.LogError("Profile is not EnemyProfile");
+            Debug.LogError("Profile is null");
             return;
         }
 
-        this.prefab = enemyProfile.prefab;
-        this.maxSize = maxSize;
-
-        parent = new GameObject(enemyProfile.name + "_Pool").transform;
+        parent = new GameObject(profile.name + "_Pool").transform;
 
         parent.SetParent(root);
 
@@ -52,24 +46,18 @@ public class ObjectPool
         }
     }
 
-    public void SetMaxSize(int maxSize)
-    {
-        this.maxSize = maxSize;
-    }
-
     private PoolItem InstantiateNew()
     {
-        GameObject obj = Object.Instantiate(prefab, parent);
+        GameObject obj = Object.Instantiate(profile.GetPrefab, parent);
         obj.SetActive(false);
 
         PoolItem newItem = new PoolItem
         {
             gameObject = obj,
-            poolable = obj.GetComponent<IPoolable>()
+            poolable = obj.GetComponent<IPoolable<T>>()
         };
 
         allItems.Add(obj, newItem);
-        currentSize++;
         return newItem;
     }
 
@@ -81,10 +69,6 @@ public class ObjectPool
         {
             item = inactiveObjects.Dequeue();
         }
-        else if (currentSize < maxSize)
-        {
-            item = InstantiateNew();
-        }
 
         if (item == null)
         {
@@ -93,9 +77,20 @@ public class ObjectPool
         }
 
         item.gameObject.SetActive(true);
-        item.poolable?.OnSpawn();
+        item.poolable?.OnSpawn(profile);
 
         return item.gameObject;
+    }
+
+    public void GetAllInactive()
+    {
+        PoolItem item = null;
+        for (int i = 0;i < inactiveObjects.Count;i++)
+        {
+            item = inactiveObjects.Dequeue();
+            item.gameObject.SetActive(true);
+            item.poolable?.OnSpawn(profile);
+        }    
     }
 
     public void Return(GameObject obj)

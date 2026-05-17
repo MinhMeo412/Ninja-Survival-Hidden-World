@@ -16,7 +16,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 12a1b23931a3bc9469a8935c60625e8b, type: 3}
   worldSprite: {fileID: -2759152716061183957, guid: 446731f1a611bdb4db0130aa8b1c0403, type: 3}
   animatorController: {fileID: 9100000, guid: a0a96d43904fd26409607d1254decde1, type: 2}
-  prefab: {fileID: 5668169814541850283, guid: 12ca08f0d858a0740a8e32584675474d, type: 3}
+  prefabPlayer: {fileID: 5668169814541850283, guid: 12ca08f0d858a0740a8e32584675474d, type: 3}
   stats:
     maxHP: 100
     moveSpeed: 4

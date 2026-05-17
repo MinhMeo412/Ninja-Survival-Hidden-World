@@ -30,10 +30,10 @@ public class PoolManager : MonoBehaviour
 
         //enemyList = GameSession.Instance.enemyList;
 
-        EnemyPools =
-            new EnemyPoolGroup(
-                enemyList,
-                transform);
+        //Tạo container chứa enemy pool
+        GameObject enemyPoolsRoot = new GameObject("EnemyPools");
+        //Tạo các pool enemy 
+        EnemyPools = new EnemyPoolGroup(enemyList, enemyPoolsRoot.transform);
 
         //ProjectilePools =
         //    new ProjectilePoolGroup(

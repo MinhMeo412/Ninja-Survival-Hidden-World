@@ -15,8 +15,8 @@ MonoBehaviour:
   enemyName: Slime
   enemyType: 0
   worldSprite: {fileID: 21300000, guid: 5c81b2de097e2bb409b44266012e7d24, type: 3}
-  animatorController: {fileID: 9100000, guid: ae53e28315516da4bbff7ecc4b83eb3a, type: 2}
-  prefab: {fileID: 3748251016042287724, guid: 248aaba620c6c3247bd6a81aa87acedd, type: 3}
+  animatorController: {fileID: 9100000, guid: 8b38b1d499b5c484c99b028ae8ff75d0, type: 2}
+  prefabEnemy: {fileID: 3748251016042287724, guid: 248aaba620c6c3247bd6a81aa87acedd, type: 3}
   stats:
     maxHP: 10
     moveSpeed: 4

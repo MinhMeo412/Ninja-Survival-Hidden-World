@@ -787,6 +787,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameSession
   selectedCharacter: {fileID: 0}
+  selectedMap: 0
+  enemyList: {fileID: 0}
   level: 0
   elapsedTime: 0
   killCount: 0

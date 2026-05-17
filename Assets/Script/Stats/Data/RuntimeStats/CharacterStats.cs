@@ -16,7 +16,9 @@ public class CharacterStats : MonoBehaviour
     {
         maxHP = profile.stats.maxHP;
         currentHP = maxHP;
-        moveSpeed = profile.stats.moveSpeed;
         damage = profile.stats.damage;
+
+        MoveStats moveStats = gameObject.GetComponent<MoveStats>();
+        moveStats.Init(profile.stats.moveSpeed);
     }
 }

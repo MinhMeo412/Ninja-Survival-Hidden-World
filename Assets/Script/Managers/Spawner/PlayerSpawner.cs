@@ -6,7 +6,7 @@ public class PlayerSpawner : MonoBehaviour
     private CharacterProfile profile;
     public static Action<Transform> OnPlayerSpawned;
 
-    private void Awake()
+    private void Start()
     {
         profile = GameSession.Instance.selectedCharacter;
         SpawnPlayer();
@@ -14,7 +14,7 @@ public class PlayerSpawner : MonoBehaviour
 
     private void SpawnPlayer()
     {
-        GameObject player = Instantiate(profile.prefab);
+        GameObject player = Instantiate(profile.GetPrefab);
 
         SpriteRenderer sr = player.GetComponent<SpriteRenderer>();
         if (sr != null)

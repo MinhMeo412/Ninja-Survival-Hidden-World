@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyPoolGroup : MonoBehaviour
+public class EnemyPoolGroup
 {
-    private readonly Dictionary<EnemyType, ObjectPool> enemyPools = new Dictionary<EnemyType, ObjectPool>();
+    private readonly Dictionary<EnemyType, ObjectPool<EnemyProfile>> enemyPools = new Dictionary<EnemyType, ObjectPool<EnemyProfile>>();
 
     public EnemyPoolGroup(EnemyList list, Transform root)
     {
@@ -11,7 +11,7 @@ public class EnemyPoolGroup : MonoBehaviour
         {
             EnemyProfile profile = group.profiles;
 
-            enemyPools[group.type] = new ObjectPool(profile,10,100,root);
+            enemyPools[group.profiles.enemyType] = new ObjectPool<EnemyProfile>(profile,10,10,root);
         }
     }
     
@@ -37,11 +37,11 @@ public class EnemyPoolGroup : MonoBehaviour
         enemyPools[type].Return(obj);
     }
 
-    public void ResizePool(EnemyType type, int maxSize)
+    public void ExpandPool(EnemyType type, int numbers)
     {
         if (!enemyPools.ContainsKey(type))
             return;
 
-        enemyPools[type].SetMaxSize(maxSize);
+        enemyPools[type].Expand(numbers);
     }
 }

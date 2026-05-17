@@ -17,6 +17,10 @@ public class GameSession : MonoBehaviour
     public int killCount;
     public bool isActiveRun;
 
+    public static System.Action<GameplayState> OnStateChange;
+    private GameplayState currentState = GameplayState.Waiting;
+    public GameplayState CurrentState => currentState;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -46,5 +50,20 @@ public class GameSession : MonoBehaviour
         elapsedTime = 0f;
         killCount = 0;
         isActiveRun = false;
+        currentState = GameplayState.Waiting;
     }
+
+    public void ChangeState(GameplayState newState)
+    {
+        currentState = newState;
+        OnStateChange?.Invoke(newState);
+    }    
+}
+
+public enum GameplayState
+{
+    Waiting,
+    PlayerReady,
+    MapReady,
+    GameplayReady
 }
