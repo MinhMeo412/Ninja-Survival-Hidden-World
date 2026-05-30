@@ -24,9 +24,7 @@ public class SceneLoader : MonoBehaviour
                 break;
 
             case SceneTransitionType.Reload:
-                GameManager.Instance.BeforeSceneChange();
                 break;
-
 
             case SceneTransitionType.Instant:
                 break;
@@ -37,7 +35,7 @@ public class SceneLoader : MonoBehaviour
 
     void StartFade()
     {
-        Debug.Log("Fade animation");
+        
     }
 
     private void OnDestroy()

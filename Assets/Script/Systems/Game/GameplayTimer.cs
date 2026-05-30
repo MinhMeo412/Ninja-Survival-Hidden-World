@@ -13,7 +13,7 @@ public class GameplayTimer : MonoBehaviour
     public float currentTime { get; private set; }
     private int lastSecond;
 
-    public bool isRunning { get; private set; }
+    public bool isRunning; //{ get; private set; }
 
     public string FormattedTime
     {
@@ -25,7 +25,7 @@ public class GameplayTimer : MonoBehaviour
             return $"{minutes:00}:{seconds:00}";
         }
     }
-
+    
     private void Awake()
     {
         if (Instance != null && Instance != this)

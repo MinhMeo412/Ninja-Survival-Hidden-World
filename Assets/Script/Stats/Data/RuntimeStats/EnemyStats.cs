@@ -20,4 +20,22 @@ public class EnemyStats : MonoBehaviour
         MoveStats moveStats = gameObject.GetComponent<MoveStats>();
         moveStats.Init(profile.stats.moveSpeed);
     }
+
+    private void Update()
+    {
+    }
+
+    public void OnHPChanged(float value)
+    {
+        currentHP += value;
+        Debug.Log($"HP: {currentHP}");
+        if (currentHP <= 0)
+            Die();
+    }
+
+    private void Die()
+    {
+        gameObject.GetComponent<Enemy>().Die();
+        currentHP = maxHP;
+    }
 }

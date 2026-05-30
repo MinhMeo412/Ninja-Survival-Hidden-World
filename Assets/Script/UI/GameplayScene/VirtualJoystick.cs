@@ -92,7 +92,7 @@ public class VirtualJoystick : MonoBehaviour,
             out panelPoint
         );
 
-        Debug.Log($"panel x = {panelPoint.x}, panel y = {panelPoint.y}");
+        //Debug.Log($"panel x = {panelPoint.x}, panel y = {panelPoint.y}");
 
         // vị trí joystick trên panel local position
         Vector2 ringCenter;

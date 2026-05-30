@@ -13,11 +13,13 @@ GameObject:
   - component: {fileID: 4959845680243710549}
   - component: {fileID: 856351207961534633}
   - component: {fileID: 1653351407470715313}
+  - component: {fileID: 2128815397424645214}
   - component: {fileID: 1455356988770783572}
   - component: {fileID: 4238540735869952232}
-  - component: {fileID: 6178631165125751232}
   - component: {fileID: 8955383076267036581}
   - component: {fileID: 6932251484536812078}
+  - component: {fileID: 6018351990347894200}
+  - component: {fileID: 2041306276326606348}
   m_Layer: 6
   m_Name: PlayerPrefab
   m_TagString: Player
@@ -67,7 +69,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 0aa3e5601e8fef34fbad4d3c14b1e433, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,14 +90,14 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.0625, y: 1}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -113,7 +115,7 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -185,6 +187,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2128815397424645214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5668169814541850283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b5f56c19df820469be901164d0f9b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
+  playerTarget: {fileID: 0}
 --- !u!114 &1455356988770783572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,18 +225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovementController
   stats: {fileID: 0}
---- !u!114 &6178631165125751232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5668169814541850283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a29adfb53293ceb4a9925f1c4041bba7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
 --- !u!114 &8955383076267036581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +249,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0236446bbf85ca40adb59bdde18ba88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveStats
+--- !u!114 &6018351990347894200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5668169814541850283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e0692626d8a94479533da2396e25a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationController
+--- !u!114 &2041306276326606348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5668169814541850283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10ac1b58a1446644a6c25cc91c2e0d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerWeaponInventory
 --- !u!1 &6678275480313116297
 GameObject:
   m_ObjectHideFlags: 0

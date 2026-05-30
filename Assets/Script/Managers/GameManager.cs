@@ -1,8 +1,11 @@
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
+
+    public event Action OnGameOver;
 
     private void Awake()
     {
@@ -15,14 +18,14 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    public void BeforeSceneChange()
-    {
-       
-    }
-
     private void OnDestroy()
     {
         if (Instance == this)
             Instance = null;
     }
+
+   public void GameOver()
+    {
+        OnGameOver?.Invoke();
+    }    
 }

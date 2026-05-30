@@ -18,6 +18,6 @@ MonoBehaviour:
   animatorController: {fileID: 9100000, guid: 07cb14b680aa93246a2547ca302037f9, type: 2}
   prefabEnemy: {fileID: 3748251016042287724, guid: 248aaba620c6c3247bd6a81aa87acedd, type: 3}
   stats:
-    maxHP: 10
-    moveSpeed: 5
-    damage: 5
+    maxHP: 7
+    moveSpeed: 1.5
+    damage: 3

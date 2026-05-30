@@ -8,6 +8,10 @@ public class UIButtonAction : MonoBehaviour
     public string sceneName;
     public SceneTransitionType transitionType;
 
+    [Header("Panel Settings")]
+    public GameObject panel;
+    public PanelActionToggle actionToggle;
+
     public void Execute()
     {
         switch (actionType)
@@ -18,6 +22,17 @@ public class UIButtonAction : MonoBehaviour
 
             case ButtonActionType.BackToMenu:
                 SceneLoader.Instance.Load("SC_MainMenu", SceneTransitionType.Faded);
+                if(Time.timeScale == 0)
+                {
+                    Debug.Log("Đổi time scale");
+                    Time.timeScale = 1f;
+                }    
+                break;
+
+            case ButtonActionType.Panel:
+                if (actionToggle == PanelActionToggle.Open)
+                { panel.SetActive(true); }
+                else { panel.SetActive(false); }
                 break;
 
             case ButtonActionType.QuitGame:
