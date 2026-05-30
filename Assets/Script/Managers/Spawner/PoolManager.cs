@@ -9,8 +9,9 @@ public class PoolManager : MonoBehaviour
     private EnemyList enemyList;
 
     [Header("Projectile")]
-    //[SerializeField]
-    //private ProjectileProfileList projectileList;
+    [SerializeField]
+    private ProjectileList projectileList;
+    public ProjectileList ProjectileList => projectileList;
 
     [Header("Items")]
     //[SerializeField]
@@ -18,6 +19,8 @@ public class PoolManager : MonoBehaviour
 
     public EnemyPoolGroup EnemyPools
     { get; private set; }
+    public ProjectilePoolGroup ProjectilePools
+        { get; private set; }
 
     private void Awake()
     {
@@ -35,10 +38,8 @@ public class PoolManager : MonoBehaviour
         //Tạo các pool enemy 
         EnemyPools = new EnemyPoolGroup(enemyList, enemyPoolsRoot.transform);
 
-        //ProjectilePools =
-        //    new ProjectilePoolGroup(
-        //        projectileList,
-        //        transform);
+        GameObject projectileRoot = new GameObject("ProjectilePool");
+        ProjectilePools = new ProjectilePoolGroup(projectileList, projectileRoot.transform);
 
         //ItemPools =
         //    new ItemPoolGroup(

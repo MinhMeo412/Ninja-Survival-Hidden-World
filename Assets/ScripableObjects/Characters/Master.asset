@@ -18,8 +18,8 @@ MonoBehaviour:
   animatorController: {fileID: 0}
   prefabPlayer: {fileID: 5668169814541850283, guid: 12ca08f0d858a0740a8e32584675474d, type: 3}
   stats:
-    maxHP: 100
-    moveSpeed: 4
-    damage: 10
-  pickupRange: 0
-  attackSpeed: 0
+    maxHP: 20
+    moveSpeed: 2.5
+    damage: 12
+  pickupRange: 5
+  attackSpeed: 1

@@ -17,13 +17,15 @@ GameObject:
   - component: {fileID: 99914257672252979}
   - component: {fileID: -2385994109069991345}
   - component: {fileID: -8595681469461466535}
+  - component: {fileID: 405344715073598739}
+  - component: {fileID: -3787786752688519063}
   m_Layer: 8
   m_Name: EnemyPrefab
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8114013768806239694
 Transform:
   m_ObjectHideFlags: 0
@@ -65,7 +67,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 0aa3e5601e8fef34fbad4d3c14b1e433, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,7 +110,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3dc257f1f89527a4bb999b77d1bb7fee, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -232,3 +234,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0236446bbf85ca40adb59bdde18ba88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveStats
+--- !u!114 &405344715073598739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3748251016042287724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de71c0606836c4e44acacc4b27db4e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  playerTarget: {fileID: 0}
+  checkDie: 0
+--- !u!114 &-3787786752688519063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3748251016042287724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9772eb410e075d48b4b223107c843d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyInputHandler
+  playerTarget: {fileID: 0}

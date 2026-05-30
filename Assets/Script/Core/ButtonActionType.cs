@@ -2,5 +2,6 @@ public enum ButtonActionType
 {
     LoadScene,
     QuitGame,
-    BackToMenu
+    BackToMenu,
+    Panel
 }

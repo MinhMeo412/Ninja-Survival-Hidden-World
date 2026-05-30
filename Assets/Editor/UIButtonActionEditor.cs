@@ -30,6 +30,22 @@ public class UIButtonActionEditor : Editor
                         button.transitionType);
 
                 break;
+
+            case ButtonActionType.Panel:
+                EditorGUILayout.LabelField("Panel Settings", EditorStyles.boldLabel);
+
+                button.panel = (GameObject)EditorGUILayout.ObjectField(
+                    "Panel",
+                    button.panel,
+                    typeof(GameObject),
+                    true
+                );
+
+                button.actionToggle = (PanelActionToggle)EditorGUILayout.EnumPopup(
+                    "Panel Action",
+                    button.actionToggle);
+
+                break;
         }
 
         if (GUI.changed)

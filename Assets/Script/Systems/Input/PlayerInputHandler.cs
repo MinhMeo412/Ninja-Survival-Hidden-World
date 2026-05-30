@@ -16,14 +16,14 @@ public class PlayerInputHandler : MonoBehaviour, IMovementInput
         inputActions = new PlayerInputActions();
 
         virtualJoystick = Object.FindFirstObjectByType<VirtualJoystick>();
-        if (virtualJoystick != null)
-        {
-            Debug.Log("Tìm thấy joystick");
-        }
-        else
-        {
-            Debug.Log("Không thấy joystick");
-        }
+        //if (virtualJoystick != null)
+        //{
+        //    Debug.Log("Tìm thấy joystick");
+        //}
+        //else
+        //{
+        //    Debug.Log("Không thấy joystick");
+        //}
     }
 
     void OnEnable()

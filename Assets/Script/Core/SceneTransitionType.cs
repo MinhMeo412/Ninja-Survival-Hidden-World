@@ -5,3 +5,9 @@ public enum SceneTransitionType
     Reload,
     Instant
 }
+
+public enum PanelActionToggle
+{
+    Open,
+    Close
+}

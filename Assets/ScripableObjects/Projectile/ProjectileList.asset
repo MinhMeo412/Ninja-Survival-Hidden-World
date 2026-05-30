@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340469247b0667042b6f75f05042d0a1, type: 3}
+  m_Name: ProjectileList
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileList
+  profiles:
+  - {fileID: 11400000, guid: fc9e8e2ed5f1fc14b98a02a7c9df7554, type: 2}
+  - {fileID: 11400000, guid: a7b84e772bdf8b043885f2bdd5594356, type: 2}

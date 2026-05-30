@@ -19,5 +19,5 @@ MonoBehaviour:
   prefabEnemy: {fileID: 3748251016042287724, guid: 248aaba620c6c3247bd6a81aa87acedd, type: 3}
   stats:
     maxHP: 10
-    moveSpeed: 4
-    damage: 5
+    moveSpeed: 2
+    damage: 3

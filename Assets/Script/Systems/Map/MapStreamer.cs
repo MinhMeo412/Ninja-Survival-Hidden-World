@@ -15,7 +15,6 @@ public class MapStreamer : MonoBehaviour
 
         if(player == null)
         {
-            Debug.Log("Dừng ở đây");
             return;
         }  
         UpdateCenterChunk();
@@ -44,7 +43,7 @@ public class MapStreamer : MonoBehaviour
         if (newCoord != currentCenterCoord)
         {
             currentCenterCoord = newCoord;
-            Debug.Log($"Player hiện đang ở Chunk: {currentCenterCoord}");
+            //Debug.Log($"Player hiện đang ở Chunk: {currentCenterCoord}");
 
             RepositionChunks();
         }

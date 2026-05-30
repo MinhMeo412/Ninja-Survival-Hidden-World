@@ -11,22 +11,57 @@ public class EnemyPoolGroup
         {
             EnemyProfile profile = group.profiles;
 
-            enemyPools[group.profiles.enemyType] = new ObjectPool<EnemyProfile>(profile,10,10,root);
+            if (group.profiles.enemyType == EnemyType.Normal)
+            {
+                enemyPools[group.profiles.enemyType] = new ObjectPool<EnemyProfile>(profile, 6, root);
+            }
+            else
+            {
+                enemyPools[group.profiles.enemyType] = new ObjectPool<EnemyProfile>(profile, 3, root);
+            }
         }
     }
     
-    public GameObject Spawn(EnemyType type, Vector3 pos, Quaternion rot)
+    public List<GameObject> GetAllToUse(EnemyType type)
     {
+        List<GameObject> list = new List<GameObject>();
         if (!enemyPools.ContainsKey(type))
             return null;
 
-        GameObject obj = enemyPools[type].Get();
+        list = enemyPools[type].GetAllInactiveToUse();
 
-        if (obj == null) return null;
+        if (list == null) return null;
 
-        obj.transform.SetPositionAndRotation(pos,rot);
+        return list;
+    }
 
-        return obj;
+    public List<GameObject> GetAll(EnemyType type)
+    {
+        List<GameObject> list = new List<GameObject>();
+        if (!enemyPools.ContainsKey(type))
+            return null;
+
+        list = enemyPools[type].GetAllInactive();
+
+        if (list == null) return null;
+
+        return list;
+    }
+
+    public void SpawnAll(EnemyType type, List<GameObject> list)
+    {
+        if (!enemyPools.ContainsKey(type))
+            return;
+
+        enemyPools[type].SetAllToActive(list);
+    }
+
+    public void Spawn(EnemyType type, GameObject obj)
+    {
+        if (!enemyPools.ContainsKey(type))
+            return;
+
+        enemyPools[type].SetActive(obj);
     }
 
     public void Despawn(EnemyType type, GameObject obj)

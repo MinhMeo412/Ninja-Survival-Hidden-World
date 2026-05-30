@@ -14,5 +14,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterList
   profiles:
   - {fileID: 11400000, guid: c8b45ce356df5ba4eb4d38511a6a6df5, type: 2}
-  - {fileID: 11400000, guid: c8b45ce356df5ba4eb4d38511a6a6df5, type: 2}
-  - {fileID: 11400000, guid: c8b45ce356df5ba4eb4d38511a6a6df5, type: 2}

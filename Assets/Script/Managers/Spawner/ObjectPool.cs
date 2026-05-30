@@ -1,6 +1,6 @@
+using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class ObjectPool<T> where T : Profile, IPrefabProvider
 {
@@ -20,7 +20,6 @@ public class ObjectPool<T> where T : Profile, IPrefabProvider
 
     public ObjectPool(T profile, 
                         int initialSize,
-                        int maxSize,
                         Transform root)
     {
         this.profile = profile;
@@ -61,36 +60,67 @@ public class ObjectPool<T> where T : Profile, IPrefabProvider
         return newItem;
     }
 
-    public GameObject Get()
+    public List<GameObject> GetAllInactiveToUse()
     {
-        PoolItem item = null;
+        List<GameObject> gameObjects = new List<GameObject>();
 
-        if (inactiveObjects.Count > 0)
+        int count = inactiveObjects.Count;
+
+        for (int i = 0; i < count; i++)
         {
-            item = inactiveObjects.Dequeue();
+            PoolItem item = inactiveObjects.Dequeue();
+            gameObjects.Add(item.gameObject);
         }
 
-        if (item == null)
-        {
-            Debug.LogWarning("Pool already maxed!");
-            return null;
-        }
-
-        item.gameObject.SetActive(true);
-        item.poolable?.OnSpawn(profile);
-
-        return item.gameObject;
+        return gameObjects;
     }
 
-    public void GetAllInactive()
+    public List<GameObject> GetAllInactive()
+    {
+        List<GameObject> gameObjects = new List<GameObject>();
+
+        int count = inactiveObjects.Count;
+
+        foreach (PoolItem item in inactiveObjects)
+        {
+            gameObjects.Add(item.gameObject);
+        }
+
+        return gameObjects;
+    }
+
+    public GameObject GetInactiveToUse()
+    {
+        if (inactiveObjects.Count == 0)
+            { return null; }
+        GameObject gameObjects = inactiveObjects.Dequeue().gameObject; 
+
+        return gameObjects;
+    }
+
+
+    public void SetAllToActive(List<GameObject> gameObjects)
     {
         PoolItem item = null;
-        for (int i = 0;i < inactiveObjects.Count;i++)
+        for (int i = 0;i < gameObjects.Count;i++)
         {
-            item = inactiveObjects.Dequeue();
+            if(allItems.TryGetValue(gameObjects[i].gameObject, out item))
+            {
+                gameObjects[i].SetActive(true);
+                item.poolable?.OnSpawn(profile);
+            }    
+        }    
+    }
+
+    public void SetActive(GameObject gameObject)
+    {
+        PoolItem item = null;
+
+        if (allItems.TryGetValue(gameObject, out item))
+        {
             item.gameObject.SetActive(true);
             item.poolable?.OnSpawn(profile);
-        }    
+        }
     }
 
     public void Return(GameObject obj)
